@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <meta charset="utf-8">
+
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css\style2.css">
+    <link rel="stylesheet" href="css\ordered_list.css">
+    <style type="text/css">
+    html{
+      /*background-color: #999;*/
+    }
+
+    #form-wrap{
+      width: 600px;
+      border: 5px solid #ccc;
+      background-color: #afc8de;
+      margin: 50px auto;
+      padding: 20px 0;
+    }
+
+    form{
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    label{
+      display:block;
+      margin: 5px 0 5px 20px;
+      font: 18px sans-serif;
+      color: #888;
+    }
+
+    input {
+      width: 250px;
+      height: 40px;
+      margin: 0 0 0 20px;
+      border-radius: 15px;
+    }
+    fieldset{
+      border: none;
+      /*background-color: #f6f6f6;*/
+      padding: 0 0 20px 0
+    }
+
+    form h4{
+      margin: 20px 0 0 30px
+      font: 24px sans-serif;
+      color: #888;
+      font-weight:bold;
+    }
+
+    </style>
+  </head>
+
+  <body>
+
+<span class="header"><a class="btn-rounded-white" href="zhome.html">HOME </a>  ||  <a class="btn-rounded-white" href="zzAbout.html">ABOUT</a>  ||  <a class="btn-rounded-white" href="zzContact.html">CONTACT</a> || WELCOME TO <b>BRIAN MACDONALD'S</b> WEB PORTFOLIO</span>
+
+    <h1>THIS PAGE IS HOW YOU CAN CONTACT BRIAN MACDONALD!</h1>
+
+    <div id="form-wrap">
+        <form action="SubDet.php" method="post"><!--Does not go anywhere-->
+          <fieldset>
+
+          <h1 style="margin: auto auto; text-align: center;"> Contact Brian!<br>Use the form below.</h1>
+
+            <label class="labelone" for="first-name">First Name:</label>
+            <input type="text" name="first-name" id="first-name">
+            <label class="labeltwo" for="last-name">Last Name:</label>
+            <input type="text" name="last-name" id="last-name">
+            <label class="labelthree" for="email">Email:</label>
+            <input type="text" name="email" id="emal">
+
+          </fieldset>
+          <fieldset>
+            <h4 style="margin: 0 0 0 20px">Send us an email!</h4>
+
+            <textarea style="margin: 0 0 0 20px;" cols="30" rows="10" placeholder="Enter a message here"></textarea><br>
+
+            <!--<a class="btn-rounded-white" type"submit">Send Email</a>
+            <a class="btn-rounded-white" type"reset">Reset Form</a>-->
+
+            <input class="SubmitBtn" type="submit" name="submit" value="Send Email (Just For Show)">
+            <input class="ResetBtn" type="reset" value="Reset Form">
+
+
+
+          </fieldset>
+        </form>
+    </div>
+
+    <div style="height: 700px; background: white; width: 5px;> </div>"
+
+  </body>
+
+</html>
